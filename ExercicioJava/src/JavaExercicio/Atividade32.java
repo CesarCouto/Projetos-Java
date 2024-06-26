@@ -6,7 +6,7 @@ public class Atividade32 {
 	
 	    public static void main(String[] args) {
 	        Scanner scanner = new Scanner(System.in);
-
+			// Atividade32 cesar
 	        System.out.print("Digite a nota do aluno: ");
 	        double nota = scanner.nextDouble();
 
@@ -23,10 +23,10 @@ public class Atividade32 {
 	            conceito = "E";
 	        }
 
-	        System.out.println("A conceituação da nota é: " + conceito);
+	        System.out.println("A conceituaï¿½ï¿½o da nota ï¿½: " + conceito);
 
 	        scanner.close();
 	    }
 	}
 
-}
+

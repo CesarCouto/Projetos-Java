@@ -6,20 +6,20 @@ public class Atividade34 {
 	
 	    public static void main(String[] args) {
 	        Scanner scanner = new Scanner(System.in);
-
+			// Atividade34 cesar
 	        System.out.print("Digite a idade da pessoa: ");
 	        int idade = scanner.nextInt();
 
 	        if (idade >= 18 && idade <= 70) {
-	            System.out.println("O voto é obrigatório.");
+	            System.out.println("O voto ï¿½ obrigatï¿½rio.");
 	        } else if (idade >= 16 || idade > 70) {
-	            System.out.println("O voto é facultativo.");
+	            System.out.println("O voto ï¿½ facultativo.");
 	        } else {
-	            System.out.println("Não pode votar.");
+	            System.out.println("Nï¿½o pode votar.");
 	        }
 
 	        scanner.close();
 	    }
 	}
 
-}
+

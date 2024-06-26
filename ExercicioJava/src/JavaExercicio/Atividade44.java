@@ -17,9 +17,10 @@ public class Atividade44 {
 	            contador++;
 	        }
 	        double media = somaIdades / 5.0;
-	        System.out.println("A média das idades é: " + media);
+			// Atividade44 cesar
+	        System.out.println("A mï¿½dia das idades ï¿½: " + media);
 	        scanner.close();
 	    }
 	}
 
-}
+

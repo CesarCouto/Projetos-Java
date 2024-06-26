@@ -2,11 +2,11 @@ package JavaExercicio;
 import java.util.Scanner;
 
 public class Atividade72 {
-	
+		// Atividade72 cesar
 	public class NumeroPrimoFor {
 	    public static void main(String[] args) {
 	        Scanner scanner = new Scanner(System.in);
-	        System.out.print("Digite um número: ");
+	        System.out.print("Digite um nï¿½mero: ");
 	        int numero = scanner.nextInt();
 	        boolean ehPrimo = true;
 	        for (int divisor = 2; divisor < numero; divisor++) {
@@ -16,9 +16,9 @@ public class Atividade72 {
 	            }
 	        }
 	        if (ehPrimo) {
-	            System.out.println("O número " + numero + " é primo.");
+	            System.out.println("O nï¿½mero " + numero + " ï¿½ primo.");
 	        } else {
-	            System.out.println("O número " + numero + " não é primo.");
+	            System.out.println("O nï¿½mero " + numero + " nï¿½o ï¿½ primo.");
 	        }
 	        scanner.close();
 	    }

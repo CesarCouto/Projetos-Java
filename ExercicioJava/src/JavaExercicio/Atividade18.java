@@ -3,27 +3,26 @@ import java.util.Scanner;
 public class Atividade18 {
 
 	public static void main(String[] args) {
+
+				// Atividade18 cesar
 	
 		        Scanner scanner = new Scanner(System.in);
 		        
-		        System.out.print("Digite o primeiro número inteiro: ");
+		        System.out.print("Digite o primeiro nï¿½mero inteiro: ");
 		        int numero1 = scanner.nextInt();
 		        
-		        System.out.print("Digite o segundo número inteiro: ");
+		        System.out.print("Digite o segundo nï¿½mero inteiro: ");
 		        int numero2 = scanner.nextInt();
 		        
 		        if (numero1 > numero2) {
-		            System.out.println("O maior número é: " + numero1);
+		            System.out.println("O maior nï¿½mero ï¿½: " + numero1);
 		        } else if (numero2 > numero1) {
-		            System.out.println("O maior número é: " + numero2);
+		            System.out.println("O maior nï¿½mero ï¿½: " + numero2);
 		        } else {
-		            System.out.println("Os números são iguais.");
+		            System.out.println("Os nï¿½meros sï¿½o iguais.");
 		        }
 		        
 		        scanner.close();
 		    }
 		}
 
-	}
-
-}

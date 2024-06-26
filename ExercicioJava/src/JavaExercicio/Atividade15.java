@@ -4,13 +4,15 @@ public class Atividade15 {
 
 	public static void main(String[] args) {
 		        Scanner scanner = new Scanner(System.in);
+
+				// Atividade15 cesar
 		        
-		        System.out.print("Digite o salário atual do funcionário: ");
+		        System.out.print("Digite o salï¿½rio atual do funcionï¿½rio: ");
 		        double salarioAtual = scanner.nextDouble();
 		        
 		        double novoSalario = salarioAtual * 1.15;
 		        
-		        System.out.printf("O novo salário com aumento de 15%% é: %.2f\n", novoSalario);
+		        System.out.printf("O novo salï¿½rio com aumento de 15%% ï¿½: %.2f\n", novoSalario);
 		        
 		        scanner.close();
 		    }

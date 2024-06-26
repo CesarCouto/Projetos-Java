@@ -2,19 +2,19 @@ package JavaExercicio;
 import java.util.Scanner;
 public class Atividade91 {
 	
-
+	// Atividade91 cesar
 	public class SomaImparesCincoFor {
 	    public static void main(String[] args) {
 	        Scanner scanner = new Scanner(System.in);
 	        int somaImpares = 0;
 	        for (int i = 0; i < 5; i++) {
-	            System.out.print("Digite um número: ");
+	            System.out.print("Digite um nï¿½mero: ");
 	            int numero = scanner.nextInt();
 	            if (numero % 2 != 0) {
 	                somaImpares += numero;
 	            }
 	        }
-	        System.out.println("A soma dos números ímpares é: " + somaImpares);
+	        System.out.println("A soma dos nï¿½meros ï¿½mpares ï¿½: " + somaImpares);
 	        scanner.close();
 	    }
 	}

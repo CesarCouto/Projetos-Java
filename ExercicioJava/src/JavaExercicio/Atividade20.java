@@ -4,17 +4,17 @@ public class Atividade20 {
 
 	public static void main(String[] args) {
 		
-
+				// Atividade20 cesar
 		
 		        Scanner scanner = new Scanner(System.in);
 		        
-		        System.out.print("Digite um número inteiro: ");
+		        System.out.print("Digite um nï¿½mero inteiro: ");
 		        int numero = scanner.nextInt();
 		        
 		        if (numero % 2 == 0) {
-		            System.out.println("O número " + numero + " é par.");
+		            System.out.println("O nï¿½mero " + numero + " ï¿½ par.");
 		        } else {
-		            System.out.println("O número " + numero + " é ímpar.");
+		            System.out.println("O nï¿½mero " + numero + " ï¿½ ï¿½mpar.");
 		        }
 		        
 		        scanner.close();
@@ -22,6 +22,4 @@ public class Atividade20 {
 		}
 
 
-	}
 
-}

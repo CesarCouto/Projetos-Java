@@ -2,7 +2,7 @@ package JavaExercicio;
 import java.util.Scanner;
 public class Atividade95 {
 	
-
+	// Atividade95 cesar
 	public class MediaIdadesVariosFor {
 	    public static void main(String[] args) {
 	        Scanner scanner = new Scanner(System.in);
@@ -22,7 +22,7 @@ public class Atividade95 {
 	        } while (!nome.equalsIgnoreCase("fim"));
 	        if (contador > 0) {
 	            double media = somaIdades / (double) contador;
-	            System.out.println("A média das idades é: " + media);
+	            System.out.println("A mï¿½dia das idades ï¿½: " + media);
 	        } else {
 	            System.out.println("Nenhuma idade foi informada.");
 	        }

@@ -7,8 +7,8 @@ public class Atividade22 {
 
 		
 		        Scanner scanner = new Scanner(System.in);
-		        
-		        System.out.print("Digite o salário do funcionário: ");
+		        // Atividade22 cesar
+		        System.out.print("Digite o salï¿½rio do funcionï¿½rio: ");
 		        double salario = scanner.nextDouble();
 		        
 		        double bonus;
@@ -18,13 +18,9 @@ public class Atividade22 {
 		            bonus = salario * 0.05;
 		        }
 		        
-		        System.out.printf("O valor do bônus é: %.2f\n", bonus);
+		        System.out.printf("O valor do bï¿½nus ï¿½: %.2f\n", bonus);
 		        
 		        scanner.close();
 		    }
 		}
 
-
-	}
-
-}

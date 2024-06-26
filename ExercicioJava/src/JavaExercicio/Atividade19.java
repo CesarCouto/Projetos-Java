@@ -3,6 +3,8 @@ import java.util.Scanner;
 public class Atividade19 {
 
 	public static void main(String[] args) {
+
+				// Atividade19 cesar
 		
 
 		        Scanner scanner = new Scanner(System.in);
@@ -19,9 +21,9 @@ public class Atividade19 {
 		        double media = (nota1 + nota2 + nota3) / 3;
 		        
 		        if (media >= 7) {
-		            System.out.println("Aluno aprovado com média: " + media);
+		            System.out.println("Aluno aprovado com mï¿½dia: " + media);
 		        } else {
-		            System.out.println("Aluno reprovado com média: " + media);
+		            System.out.println("Aluno reprovado com mï¿½dia: " + media);
 		        }
 		        
 		        scanner.close();
@@ -29,6 +31,3 @@ public class Atividade19 {
 		}
 
 
-	}
-
-}

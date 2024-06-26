@@ -4,7 +4,7 @@ public class Atividade33 {
 	
 	    public static void main(String[] args) {
 	        Scanner scanner = new Scanner(System.in);
-
+			// Atividade33 cesar
 	        System.out.print("Digite o nome do aluno: ");
 	        String nome = scanner.next();
 
@@ -16,11 +16,11 @@ public class Atividade33 {
 	        } else if (turno == 'V' || turno == 'v') {
 	            System.out.println("Boa tarde, " + nome);
 	        } else {
-	            System.out.println("Turno inválido.");
+	            System.out.println("Turno invï¿½lido.");
 	        }
 
 	        scanner.close();
 	    }
 	}
 
-}
+

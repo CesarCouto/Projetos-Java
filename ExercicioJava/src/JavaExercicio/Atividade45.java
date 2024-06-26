@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Atividade45 {
 
 
-	
+	// Atividade45 cesar
 	    public static void main(String[] args) {
 	        int a = 0, b = 1;
 	        int contador = 0;
@@ -17,4 +17,4 @@ public class Atividade45 {
 	    }
 	}
 
-}
+

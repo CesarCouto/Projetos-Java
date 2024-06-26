@@ -2,7 +2,7 @@ package JavaExercicio;
 import java.util.Scanner;
 public class Atividade53 {
 	
-
+	// Atividade53 cesar
 	public class SomaNumerosDoWhile {
 	    public static void main(String[] args) {
 	        int numero = 1;
@@ -11,7 +11,7 @@ public class Atividade53 {
 	            soma += numero;
 	            numero++;
 	        } while (numero <= 100);
-	        System.out.println("A soma dos números de 1 a 100 é: " + soma);
+	        System.out.println("A soma dos nï¿½meros de 1 a 100 ï¿½: " + soma);
 	    }
 	}
 

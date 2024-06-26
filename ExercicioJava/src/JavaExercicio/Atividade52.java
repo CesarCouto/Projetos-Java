@@ -2,7 +2,7 @@ package JavaExercicio;
 import java.util.Scanner;
 
 public class Atividade52 {
-	
+	// Atividade52 cesar
 	public class NumerosParesDoWhile {
 	    public static void main(String[] args) {
 	        int numero = 1;

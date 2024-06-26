@@ -8,27 +8,25 @@ public class Atividade24 {
 		
 		
 		        Scanner scanner = new Scanner(System.in);
-		        
+		        // Atividade24 cesar
 		        int[] numeros = new int[3];
 		        
-		        System.out.print("Digite o primeiro número: ");
+		        System.out.print("Digite o primeiro nï¿½mero: ");
 		        numeros[0] = scanner.nextInt();
 		        
-		        System.out.print("Digite o segundo número: ");
+		        System.out.print("Digite o segundo nï¿½mero: ");
 		        numeros[1] = scanner.nextInt();
 		        
-		        System.out.print("Digite o terceiro número: ");
+		        System.out.print("Digite o terceiro nï¿½mero: ");
 		        numeros[2] = scanner.nextInt();
 		        
 		        Arrays.sort(numeros);
 		        
-		        System.out.println("Números em ordem crescente: " + numeros[0] + ", " + numeros[1] + ", " + numeros[2]);
+		        System.out.println("Nï¿½meros em ordem crescente: " + numeros[0] + ", " + numeros[1] + ", " + numeros[2]);
 		        
 		        scanner.close();
 		    }
 		}
 
 
-	}
 
-}

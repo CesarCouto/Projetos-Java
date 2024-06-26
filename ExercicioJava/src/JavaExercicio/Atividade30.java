@@ -4,8 +4,8 @@ public class Atividade30 {
 
 	    public static void main(String[] args) {
 	        Scanner scanner = new Scanner(System.in);
-
-	        System.out.print("Digite o número de maçãs compradas: ");
+			// Atividade30 cesar
+	        System.out.print("Digite o nï¿½mero de maï¿½ï¿½s compradas: ");
 	        int quantidade = scanner.nextInt();
 
 	        double precoPorMaca;
@@ -22,4 +22,4 @@ public class Atividade30 {
 	    }
 	}
 
-}
+

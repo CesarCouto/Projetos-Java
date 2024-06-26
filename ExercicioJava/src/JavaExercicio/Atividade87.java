@@ -2,14 +2,14 @@ package JavaExercicio;
 import java.util.Scanner;
 public class Atividade87 {
 	
-
+	// Atividade87 cesar
 	public class ParesImparesFor {
 	    public static void main(String[] args) {
 	        Scanner scanner = new Scanner(System.in);
 	        int pares = 0;
 	        int impares = 0;
 	        for (int i = 0; i < 5; i++) {
-	            System.out.print("Digite um número: ");
+	            System.out.print("Digite um nï¿½mero: ");
 	            int numero = scanner.nextInt();
 	            if (numero % 2 == 0) {
 	                pares++;
@@ -17,8 +17,8 @@ public class Atividade87 {
 	                impares++;
 	            }
 	        }
-	        System.out.println("Quantidade de números pares: " + pares);
-	        System.out.println("Quantidade de números ímpares: " + impares);
+	        System.out.println("Quantidade de nï¿½meros pares: " + pares);
+	        System.out.println("Quantidade de nï¿½meros ï¿½mpares: " + impares);
 	        scanner.close();
 	    }
 	}

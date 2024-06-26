@@ -4,18 +4,18 @@ import java.util.Scanner;
 public class Atividade25 {
 	    public static void main(String[] args) {
 	        Scanner scanner = new Scanner(System.in);
-	        
-	        System.out.print("Digite o número de faltas do aluno: ");
+	        // Atividade25 cesar
+	        System.out.print("Digite o nï¿½mero de faltas do aluno: ");
 	        int faltas = scanner.nextInt();
 	        
 	        if (faltas > 15) {
 	            System.out.println("Aluno reprovado por falta.");
 	        } else {
-	            System.out.println("Aluno não reprovado por falta.");
+	            System.out.println("Aluno nï¿½o reprovado por falta.");
 	        }
 	        
 	        scanner.close();
 	    }
 	}
 
-}
+

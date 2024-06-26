@@ -2,19 +2,19 @@ package JavaExercicio;
 import java.util.Scanner;
 public class Atividade90 {
 	
-
+	// Atividade90 cesar
 	public class SomaParesCincoFor {
 	    public static void main(String[] args) {
 	        Scanner scanner = new Scanner(System.in);
 	        int somaPares = 0;
 	        for (int i = 0; i < 5; i++) {
-	            System.out.print("Digite um número: ");
+	            System.out.print("Digite um nï¿½mero: ");
 	            int numero = scanner.nextInt();
 	            if (numero % 2 == 0) {
 	                somaPares += numero;
 	            }
 	        }
-	        System.out.println("A soma dos números pares é: " + somaPares);
+	        System.out.println("A soma dos nï¿½meros pares ï¿½: " + somaPares);
 	        scanner.close();
 	    }
 	}

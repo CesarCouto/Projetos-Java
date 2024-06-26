@@ -7,14 +7,14 @@ public class Atividade23 {
 
 		
 		        Scanner scanner = new Scanner(System.in);
-		        
-		        System.out.print("Digite o nome de um mês: ");
+		        // Atividade23 cesar
+		        System.out.print("Digite o nome de um mï¿½s: ");
 		        String mes = scanner.nextLine().toLowerCase();
 		        
 		        int dias;
 		        switch (mes) {
 		            case "janeiro":
-		            case "março":
+		            case "marï¿½o":
 		            case "maio":
 		            case "julho":
 		            case "agosto":
@@ -29,24 +29,20 @@ public class Atividade23 {
 		                dias = 30;
 		                break;
 		            case "fevereiro":
-		                dias = 28; // Considerando anos não bissextos
+		                dias = 28; // Considerando anos nï¿½o bissextos
 		                break;
 		            default:
-		                dias = -1; // Mês inválido
+		                dias = -1; // Mï¿½s invï¿½lido
 		                break;
 		        }
 		        
 		        if (dias == -1) {
-		            System.out.println("Mês inválido.");
+		            System.out.println("Mï¿½s invï¿½lido.");
 		        } else {
-		            System.out.println("O mês de " + mes + " tem " + dias + " dias.");
+		            System.out.println("O mï¿½s de " + mes + " tem " + dias + " dias.");
 		        }
 		        
 		        scanner.close();
 		    }
 		}
 
-
-	}
-
-}

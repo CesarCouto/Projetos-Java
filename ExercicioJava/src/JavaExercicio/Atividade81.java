@@ -2,16 +2,16 @@ package JavaExercicio;
 import java.util.Scanner;
 public class Atividade81 {
 	
-
+	// Atividade81 cesar
 	public class InversoFor {
 	    public static void main(String[] args) {
 	        Scanner scanner = new Scanner(System.in);
 	        int[] numeros = new int[5];
 	        for (int i = 0; i < 5; i++) {
-	            System.out.print("Digite um número: ");
+	            System.out.print("Digite um nï¿½mero: ");
 	            numeros[i] = scanner.nextInt();
 	        }
-	        System.out.println("Números na ordem inversa:");
+	        System.out.println("Nï¿½meros na ordem inversa:");
 	        for (int i = 4; i >= 0; i--) {
 	            System.out.println(numeros[i]);
 	        }

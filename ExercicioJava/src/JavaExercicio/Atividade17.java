@@ -7,11 +7,13 @@ public class Atividade17 {
 
 		        Scanner scanner = new Scanner(System.in);
 		        
+				// Atividade17 cesar
+
 		        System.out.print("Digite a idade da pessoa: ");
 		        int idade = scanner.nextInt();
 		        
 		        if (idade >= 0 && idade <= 12) {
-		            System.out.println("Criança");
+		            System.out.println("Crianï¿½a");
 		        } else if (idade >= 13 && idade <= 17) {
 		            System.out.println("Adolescente");
 		        } else if (idade >= 18 && idade <= 64) {
@@ -19,7 +21,7 @@ public class Atividade17 {
 		        } else if (idade >= 65) {
 		            System.out.println("Idoso");
 		        } else {
-		            System.out.println("Idade inválida");
+		            System.out.println("Idade invï¿½lida");
 		        }
 		        
 		        scanner.close();

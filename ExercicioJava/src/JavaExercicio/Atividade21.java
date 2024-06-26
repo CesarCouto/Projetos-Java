@@ -7,8 +7,8 @@ public class Atividade21 {
 
 		
 		        Scanner scanner = new Scanner(System.in);
-		        
-		        System.out.print("Digite o número de pessoas no grupo: ");
+		        // Atividade21 cesar
+		        System.out.print("Digite o nï¿½mero de pessoas no grupo: ");
 		        int numeroDePessoas = scanner.nextInt();
 		        
 		        int menoresDeIdade = 0;
@@ -33,6 +33,3 @@ public class Atividade21 {
 		}
 
 
-	}
-
-}

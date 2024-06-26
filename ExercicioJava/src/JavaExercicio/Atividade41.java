@@ -5,7 +5,8 @@ public class Atividade41 {
 
 	    public static void main(String[] args) {
 	        Scanner scanner = new Scanner(System.in);
-	        System.out.print("Digite um número inteiro positivo: ");
+			// Atividade41 cesar
+	        System.out.print("Digite um nï¿½mero inteiro positivo: ");
 	        int numero = scanner.nextInt();
 	        int divisor = 1;
 	        while (divisor <= numero) {
@@ -18,4 +19,4 @@ public class Atividade41 {
 	    }
 	}
 
-}
+

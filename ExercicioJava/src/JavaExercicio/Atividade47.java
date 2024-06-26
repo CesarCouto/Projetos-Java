@@ -2,7 +2,7 @@ package JavaExercicio;
 import java.util.Scanner;
 public class Atividade47 {
 
-
+	// Atividade47 cesar
 	public class NumerosImpares {
 	    public static void main(String[] args) {
 	        int numero = 1;

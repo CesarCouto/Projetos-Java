@@ -2,7 +2,7 @@ package JavaExercicio;
 import java.util.Scanner;
 public class Atividade84 {
 	
-
+// Atividade84 cesar
 	public class IdadeMaisVelhaFor {
 	    public static void main(String[] args) {
 	        Scanner scanner = new Scanner(System.in);
@@ -18,7 +18,7 @@ public class Atividade84 {
 	                nomeMaisVelho = nome;
 	            }
 	        }
-	        System.out.println("A pessoa mais velha é " + nomeMaisVelho + " com " + idadeMaisVelha + " anos.");
+	        System.out.println("A pessoa mais velha ï¿½ " + nomeMaisVelho + " com " + idadeMaisVelha + " anos.");
 	        scanner.close();
 	    }
 	}

@@ -2,7 +2,7 @@ package JavaExercicio;
 import java.util.Scanner;
 public class Atividade93 {
 	
-
+	// Atividade93 cesar
 	public class MaisNovoVariosFor {
 	    public static void main(String[] args) {
 	        Scanner scanner = new Scanner(System.in);
@@ -23,7 +23,7 @@ public class Atividade93 {
 	            }
 	        } while (!nome.equalsIgnoreCase("fim"));
 	        if (!nomeMaisNovo.isEmpty()) {
-	            System.out.println("A pessoa mais nova é " + nomeMaisNovo + " com " + idadeMaisNova + " anos.");
+	            System.out.println("A pessoa mais nova ï¿½ " + nomeMaisNovo + " com " + idadeMaisNova + " anos.");
 	        } else {
 	            System.out.println("Nenhuma pessoa foi informada.");
 	        }

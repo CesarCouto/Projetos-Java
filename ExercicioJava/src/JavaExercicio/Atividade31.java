@@ -6,19 +6,19 @@ public class Atividade31 {
 
 	    public static void main(String[] args) {
 	        Scanner scanner = new Scanner(System.in);
-
-	        System.out.print("Digite o valor do salário-mínimo: ");
+			// Atividade31 cesar
+	        System.out.print("Digite o valor do salï¿½rio-mï¿½nimo: ");
 	        double salarioMinimo = scanner.nextDouble();
 
-	        System.out.print("Digite o salário do funcionário: ");
+	        System.out.print("Digite o salï¿½rio do funcionï¿½rio: ");
 	        double salarioFuncionario = scanner.nextDouble();
 
 	        double quantidadeSalariosMinimos = salarioFuncionario / salarioMinimo;
 	        
-	        System.out.printf("O funcionário recebe %.2f salários-mínimos.\n", quantidadeSalariosMinimos);
+	        System.out.printf("O funcionï¿½rio recebe %.2f salï¿½rios-mï¿½nimos.\n", quantidadeSalariosMinimos);
 
 	        scanner.close();
 	    }
 	}
 
-}
+

@@ -2,11 +2,11 @@ package JavaExercicio;
 import java.util.Scanner;
 public class Atividade58 {
 	
-
+	// Atividade58 cesar
 	public class FibonacciDoWhile {
 	    public static void main(String[] args) {
 	        Scanner scanner = new Scanner(System.in);
-	        System.out.print("Digite um número: ");
+	        System.out.print("Digite um nï¿½mero: ");
 	        int numero = scanner.nextInt();
 	        int a = 0, b = 1;
 	        do {
